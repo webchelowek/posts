@@ -1,0 +1,24 @@
+.MyModal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MyModalContent{
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Active{
+    display: flex;
+}

@@ -1,0 +1,12 @@
+.MyButton{
+    padding: 10px 20px;
+    background: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.MyButton:hover{
+    background: darkcyan;
+    color: wheat;
+    transition: 0.5s all;
+}
